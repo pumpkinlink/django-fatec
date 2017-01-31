@@ -3,6 +3,7 @@ from .forms import SomaForm
 # Create your views here.
 
 
+
 def home(request, **kwargs):
     context = {}
 
