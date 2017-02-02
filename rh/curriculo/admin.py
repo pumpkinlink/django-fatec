@@ -7,7 +7,7 @@ class CurriculoAdmin(admin.ModelAdmin):
 
 
 class AlunoAdmin(admin.ModelAdmin):
-    fields=('nome',)
+    fields = ('nome',)
     readonly_fields = ('datacadastro',)
 
     #def datacadastro(self, obj):
